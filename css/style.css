@@ -1,0 +1,102 @@
+input{
+    display: none;
+}
+
+#Kyrgyzstan~:checked~.Batken,
+#Kyrgyzstan:checked~.Osh,
+#Kyrgyzstan:checked~.Jalal-abad,
+#Kyrgyzstan:checked~.Talas,
+#Kyrgyzstan:checked~.Naryn,
+#Kyrgyzstan:checked~.Chui,
+#Kyrgyzstan:checked~.Ysyk-kol{
+    display: block;
+}
+
+#Batken:checked~.Osh,
+#Batken:checked~.Jalal-abad,
+#Batken:checked~.Talas,
+#Batken:checked~.Naryn,
+#Batken:checked~.Chui,
+#Batken:checked~.Ysyk-kol{
+    display: none;
+}
+
+#Osh:checked~.Batken,
+#Osh:checked~.Jalal-abad,
+#Osh:checked~.Talas,
+#Osh:checked~.Naryn,
+#Osh:checked~.Chui,
+#Osh:checked~.Ysyk-kol{
+    display: none;
+}
+
+#Jalal-Abad:checked~.Batken,
+#Jalal-Abad:checked~.Osh,
+#Jalal-Abad:checked~.Talas,
+#Jalal-Abad:checked~.Naryn,
+#Jalal-Abad:checked~.Chui,
+#Jalal-Abad:checked~.Ysyk-kol{
+    display: none;
+}
+
+#Talas:checked~.Batken,
+#Talas:checked~.Osh,
+#Talas:checked~.Jalal-abad,
+#Talas:checked~.Naryn,
+#Talas:checked~.Chui,
+#Talas:checked~.Ysyk-kol{
+    display: none;
+}
+
+#Naryn:checked~.Batken,
+#Naryn:checked~.Osh,
+#Naryn:checked~.Jalal-abad,
+#Naryn:checked~.Talas,
+#Naryn:checked~.Chui,
+#Naryn:checked~.Ysyk-kol{
+    display: none;
+}
+
+#Chui:checked~.Batken,
+#Chui:checked~.Osh,
+#Chui:checked~.Jalal-abad,
+#Chui:checked~.Talas,
+#Chui:checked~.Naryn,
+#Chui:checked~.Ysyk-kol{
+    display: none;
+}
+
+#Ysyk-Kol:checked~.Batken,
+#Ysyk-Kol:checked~.Osh,
+#Ysyk-Kol:checked~.Jalal-abad,
+#Ysyk-Kol:checked~.Talas,
+#Ysyk-Kol:checked~.Naryn,
+#Ysyk-Kol:checked~.Chui{
+    display: none;
+}
+
+body{
+    background-color: #292e49;
+}
+
+.container{
+    font-family:'Lato',sans-serif;
+    font-size: 40px;
+    width: 90%;
+    margin:0 30px;
+    text-align: center;
+
+
+}
+
+.oblus{
+    font-family:'Lato',sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top:50px;
+    border: 2px dot-dot-dash black;
+}
+
+
+
+
